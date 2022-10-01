@@ -1,0 +1,9 @@
+{% extends "webapp/base.html" %}
+<!-- ==== Crispy form ==== -->
+{% load crispy_forms_tags %}
+
+<!--  ==== Title ====-->
+{% block title %} Crispy Form {% endblock title %}
+
+<!-- ==== Content ====== -->
+{% block content %} {% crispy form %} {% endblock content %}
